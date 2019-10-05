@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 20px;
+	-webkit-box-shadow: 2px 3px 6px 1px rgba(207,207,207,0.51);
+	-moz-box-shadow: 2px 3px 6px 1px rgba(207,207,207,0.51);
+	box-shadow: 2px 3px 6px 1px rgba(207,207,207,0.51);
+	margin: 5px 0 30px 0; 
+    line-height: 30px;
+}
+
+.add_task {
+	padding: 5px;
+	background-color: #43434320;
+}
+
+.task-list {
+	width: 100%;
+}
+
+tr:hover {
+	background-color: #f7f9ff;
+}
+
+td, th {
+	padding: 0px 10px;
+
+}
+
+.pager {
+	margin-top: 10px;
+	width: 100% !important;
+	text-align: center;
+}
+
+.pager a {
+	color: #434343;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.pager span {
+	padding: 10px;
+	color: #434343;
+	font-size: 25px;
+}
+
+.pager a.disabled {
+	color: lightgrey;
+	pointer-events: none;
+	text-decoration: none;
+}
+
+.add-edit-info {
+	width: 100%;
+}
+#add-edit-form {
+	width: 100%;
+}
+#add-edit-form label {
+	width: 30%;
+}
+
+#add-edit-form .buttons {
+	float: right;
+	width: 100%;
+}
+
+#preview {
+	margin-top: 30px;
+	display: none;
+}
+
+.fright {
+	float: right !important;
+}
+
+.fleft {
+	float: right !important;
+}
+
+.logout-button,
+.login-button {
+	margin-left: 15px;
+}
+
+.login-form-wrapper {
+	display: block;
+	margin:auto;
+	padding: 30px;
+	-webkit-box-shadow: 2px 3px 6px 1px rgba(207,207,207,0.51);
+	-moz-box-shadow: 2px 3px 6px 1px rgba(207,207,207,0.51);
+	box-shadow: 2px 3px 6px 1px rgba(207,207,207,0.51);
+	min-width: 350px;
+}
+
+.form-control {
+	position: relative;
+}
+
+.padding-horizontal-30 {
+	padding: 0 30px;
+}
+
+.notifications {
+	width: 100%;
+}
+
+.notifications .alert {
+	width: 100%;
+}
+
+a.check-button {
+    margin-right: 15px;
+}
